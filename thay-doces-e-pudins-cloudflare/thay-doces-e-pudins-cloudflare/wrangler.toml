@@ -11,7 +11,7 @@ directory = "./public"
 [[d1_databases]]
 binding = "DB"
 database_name = "thay-loja"
-database_id = "COLE-AQUI-O-ID-DO-BANCO"
+database_id = "da649fbe-f1f6-4b81-8dc6-9a39a922a969"
 
 [vars]
 ADMIN_USER = "thay"
