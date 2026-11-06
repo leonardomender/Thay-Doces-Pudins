@@ -15,7 +15,7 @@ database_id = "da649fbe-f1f6-4b81-8dc6-9a39a922a969"
 
 [vars]
 ADMIN_USER = "thay"
-WHATSAPP_LOJA = "5511963220941"
+WHATSAPP_LOJA = "5511932352253"
 
 # SECRETS (NÃO escreva aqui! Cadastre no painel da Cloudflare):
 #   SECRET_KEY      -> texto longo e aleatório
