@@ -1,0 +1,22 @@
+# Configuração do site da Thay Doces&Pudins na Cloudflare (Workers + D1)
+name = "thay-doces-e-pudins"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Arquivos públicos (css e js)
+[assets]
+directory = "./public"
+
+# Banco de dados D1 (cole o ID do banco no lugar do texto abaixo)
+[[d1_databases]]
+binding = "DB"
+database_name = "thay-loja"
+database_id = "COLE-AQUI-O-ID-DO-BANCO"
+
+[vars]
+ADMIN_USER = "thay"
+WHATSAPP_LOJA = "5511994811430"
+
+# SECRETS (NÃO escreva aqui! Cadastre no painel da Cloudflare):
+#   SECRET_KEY      -> texto longo e aleatório
+#   ADMIN_PASSWORD  -> a senha do painel Admin
